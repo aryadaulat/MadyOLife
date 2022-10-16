@@ -58,14 +58,16 @@ const SignIn = () => {
           resizeMode="contain"
         />
         <CustomInput
+					title="Username"
           name="username"
-          placeholder="Username"
+          placeholder="Masukkan Username"
           control={control}
           rules={{required: 'Username Is Required'}}
         />
         <CustomInput
+					title="Password"
           name="password"
-          placeholder="Password"
+          placeholder="Masukkan Password"
           control={control}
           rules={{
             required: 'Password Is Required',

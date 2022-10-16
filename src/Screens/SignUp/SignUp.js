@@ -68,8 +68,9 @@ const SignUp = () => {
       <View style={styles.root}>
         <Text style={styles.title}>Create An Account</Text>
 				<CustomInput
+					title="Nama"
           name="name"
-          placeholder="Name"
+          placeholder="Masukkan Name"
           control={control}
           rules={{required: 'Name Is Required',
 					minLength:{
@@ -83,8 +84,9 @@ const SignUp = () => {
 				}}
         />
         <CustomInput
+					title="Username"
           name="username"
-          placeholder="Username"
+          placeholder="Masukkan Username"
           control={control}
           rules={{required: 'Username Is Required',
 					minLength:{
@@ -98,8 +100,9 @@ const SignUp = () => {
 				}}
         />
         <CustomInput
+					title="Email"
           name="email"
-          placeholder="Email"
+          placeholder="Masukkan Email"
           control={control}
           rules={{
             required: 'Username Is Required',
@@ -107,8 +110,9 @@ const SignUp = () => {
           }}
         />
         <CustomInput
+					title="Password"
           name="password"
-          placeholder="Password"
+          placeholder="Masukkan Password"
           control={control}
           rules={{
             required: 'Password Is Required',
@@ -117,6 +121,7 @@ const SignUp = () => {
           secureTextEntry
         />
         <CustomInput
+					title="Password Repeat"
           name="passwordRepeat"
           placeholder="Masukkan Ulang Password"
           control={control}

@@ -39,12 +39,14 @@ const ResetPassword = () => {
     <View style={styles.root}>
       <Text style={styles.title}>Reset Your Password</Text>
 			<CustomInput
+					title="Username"
           name="username"
           placeholder="Masukkan Username"
           control={control}
           rules={{required: 'Username Is Required'}}
         />
 			<CustomInput
+					title="Code"
           name="code"
           placeholder="Masukkan Kode"
           control={control}
@@ -52,6 +54,7 @@ const ResetPassword = () => {
         />
 
 			<CustomInput
+					title="Password Baru"
           name="password"
           placeholder="Masukkan Password Baru"
           control={control}
@@ -62,6 +65,7 @@ const ResetPassword = () => {
           secureTextEntry
         />
 				<CustomInput
+					title="Repeat New Password"
           name="passwordRepeat"
           placeholder="Masukkan Ulang Password"
           control={control}

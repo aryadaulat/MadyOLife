@@ -55,6 +55,7 @@ const ConfirmEmail = () => {
       <Text style={styles.title}>Confirm Your Email</Text>
       
 			<CustomInput
+					title="Username"
           name="username"
           placeholder="Masukkan Username"
           control={control}
@@ -62,6 +63,7 @@ const ConfirmEmail = () => {
         />
 
 			<CustomInput
+					title="Code"
           name="code"
           placeholder="Masukkan Kode Email Verifikasi"
           control={control}

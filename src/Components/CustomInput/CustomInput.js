@@ -4,6 +4,7 @@ import {Controller} from 'react-hook-form';
 
 const CustomInput = ({
   rules = {},
+	title,
   control,
   name,
   placeholder,
@@ -20,8 +21,10 @@ const CustomInput = ({
           <View
             style={[styles.container, {borderColor: error ? 'red' : '#e8e8e8'}]}
           >
+						<Text style={styles.Text}>{title}</Text>
             <TextInput
               value={value}
+							placeholderTextColor="#808080"
               onChangeText={onChange}
               onBlur={onBlur}
               placeholder={placeholder}
@@ -54,6 +57,9 @@ const styles = StyleSheet.create({
   input: {
 		color:'black'
 	},
+	Text:{
+		color:'black',
+	}
 });
 
 export default CustomInput;

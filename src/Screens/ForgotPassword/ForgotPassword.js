@@ -39,8 +39,9 @@ const ForgotPassword = () => {
     <View style={styles.root}>
       <Text style={styles.title}>Reset Your Password</Text>
       <CustomInput
+					title="Username"
           name="username"
-          placeholder="Username"
+          placeholder="Masukkan Username"
           control={control}
           rules={{required: 'Username Is Required'}}
         />
