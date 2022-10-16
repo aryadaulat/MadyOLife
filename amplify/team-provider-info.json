@@ -1,0 +1,22 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-madyolife-staging-113714-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490586049387:role/amplify-madyolife-staging-113714-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490586049387:role/amplify-madyolife-staging-113714-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-madyolife-staging-113714-deployment",
+      "UnauthRoleName": "amplify-madyolife-staging-113714-unauthRole",
+      "StackName": "amplify-madyolife-staging-113714",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:490586049387:stack/amplify-madyolife-staging-113714/0603ec20-dc1f-11ec-b75f-067fdb578cfa",
+      "AmplifyAppId": "dmqrwv6fb2w6t"
+    },
+    "categories": {
+      "auth": {
+        "MadyOLife": {
+          "oAuthSecretsPathAmplifyAppId": "dmqrwv6fb2w6t"
+        }
+      }
+    }
+  }
+}
